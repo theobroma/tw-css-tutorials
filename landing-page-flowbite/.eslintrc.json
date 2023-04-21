@@ -1,4 +1,13 @@
+// https://nextjs.org/docs/basic-features/eslint
+// ======================================================
 // https://stackoverflow.com/a/70421220/3988363
+// https://stackoverflow.com/questions/71662525/failed-to-load-config-next-babel-to-extend-from-eslintrc-json
 {
-    "extends": ["next/babel", "next/core-web-vitals"]
+    "extends": [
+        // "next/babel",
+        // "next/core-web-vitals",
+        "next",
+        "plugin:tailwindcss/recommended",
+        "prettier"
+    ]
 }
