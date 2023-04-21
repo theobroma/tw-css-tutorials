@@ -8,10 +8,6 @@
     "next",
     "next/core-web-vitals",
     "plugin:tailwindcss/recommended",
-    "prettier"
-  ],
-  "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": "error"
-  }
+    "plugin:prettier/recommended"
+  ]
 }
