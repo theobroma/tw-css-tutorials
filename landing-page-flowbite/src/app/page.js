@@ -1,5 +1,6 @@
 import Head from "next/head";
 import PageList from "../components/PageList";
+import Seaction1 from "../components/Seaction-1";
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <main>
                 <h1 className="text-2xl font-bold">List of Pages</h1>
                 <PageList />
+                <Seaction1 />
             </main>
         </div>
     );
