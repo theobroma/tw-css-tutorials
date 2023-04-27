@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Seaction1 from '@/components/Seaction-1';
 import Seaction2 from '@/components/Seaction-2';
 import Seaction4 from '@/components/Seaction-4';
+import Seaction5 from '@/components/Seaction-5';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Seaction1 />
         <Seaction2 />
         <Seaction4 />
+        <Seaction5 />
       </main>
     </div>
   );
