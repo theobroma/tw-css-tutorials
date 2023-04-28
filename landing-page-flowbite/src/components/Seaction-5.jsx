@@ -4,8 +4,8 @@ const Seaction5 = () => (
       <div className="max-w-screen-lg text-gray-500 dark:text-gray-400 sm:text-lg">
         <h2 className="mb-4 text-4xl font-bold text-gray-900 dark:text-white">
           Powering innovation at{' '}
-          <span className="font-extrabold">200,000+</span>
-          companies worldwide
+          <span className="font-extrabold">200,000+</span>&nbsp;companies
+          worldwide
         </h2>
         <p className="mb-4 font-light">
           Track work across the enterprise through an open, collaborative
