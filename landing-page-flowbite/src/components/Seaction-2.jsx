@@ -13,10 +13,10 @@ const Seaction2 = () => {
         </h2>
         <div className="grid grid-cols-2 gap-8 text-gray-500 dark:text-gray-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6">
           <a href="#" className="flex items-center justify-center">
-            <AirbnbSvg />
+            <AirbnbSvg className="h-9 hover:text-gray-900 dark:hover:text-white" />
           </a>
           <a href="#" className="flex items-center justify-center">
-            <GoogleSvg />
+            <GoogleSvg className="h-9 hover:text-gray-900 dark:hover:text-white" />
           </a>
           <a href="#" className="flex items-center justify-center">
             {/* TODO: research svg */}
@@ -45,13 +45,13 @@ const Seaction2 = () => {
             </svg>
           </a>
           <a href="#" className="flex items-center justify-center">
-            <SpotifySvg />
+            <SpotifySvg className="h-9 hover:text-gray-900 dark:hover:text-white" />
           </a>
           <a href="#" className="flex items-center justify-center">
-            <MailChimpSvg />
+            <MailChimpSvg className="h-9 hover:text-gray-900 dark:hover:text-white" />
           </a>
           <a href="#" className="flex items-center justify-center">
-            <MashableSvg />
+            <MashableSvg className="h-6 hover:text-gray-900 dark:hover:text-white" />
           </a>
         </div>
       </div>
