@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from '@/components/Header';
 import Seaction1 from '@/components/Seaction-1';
 import Seaction2 from '@/components/Seaction-2';
 import Seaction3 from '@/components/Seaction-3';
@@ -15,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className="text-2xl font-bold">List of Pages</h1>
+        <Header />
         <Seaction1 />
         <Seaction2 />
         <Seaction3 />

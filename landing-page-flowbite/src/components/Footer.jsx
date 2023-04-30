@@ -1,4 +1,4 @@
-const Seaction7 = () => (
+const Footer = () => (
   <footer className="bg-gray-50 p-4 dark:bg-gray-800 sm:p-6">
     <div className="mx-auto max-w-screen-xl">
       <div className="md:flex md:justify-between">
@@ -171,4 +171,4 @@ const Seaction7 = () => (
   </footer>
 );
 
-export default Seaction7;
+export default Footer;
